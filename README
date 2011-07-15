@@ -1,7 +1,10 @@
 Copyright (C) 2005 Mark Nelson
 
+This project was an attempt to do stereoscopic 3D of Digital Elevation Models. It was done for a school project.
+
 The original author was Dr. Mark Pendergast.  His code was originally published in Javaworld.  The article can be found at
 http://www.javaworld.com/javaworld/jw-07-2003/jw-0704-3d_p.html
+
 
 This program is free software; you can redistribute it and/or modify it 
 under the terms of the GNU General Public License as published by the 
