@@ -1,0 +1,24 @@
+Copyright (C) 2005 Mark Nelson
+
+The original author was Dr. Mark Pendergast.  His code was originally published in Javaworld.  The article can be found at
+http://www.javaworld.com/javaworld/jw-07-2003/jw-0704-3d_p.html
+
+This program is free software; you can redistribute it and/or modify it 
+under the terms of the GNU General Public License as published by the 
+Free Software Foundation;  either version 2 of the License, or (at your 
+option) any later version.
+
+This program is distributed in the hope that it will be useful, but 
+WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License along 
+with this program; if not, write to the Free Software Foundation, Inc., 
+51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+This package has two example models to use.  The file DuluthSDTSDEM.tar.gz is an example of a tarballed USGS SDTS data set.  The .ddf files contained in DuluthHeightsSDTS are the untarred format of an SDTS data set.  Normally you get a lot more than just the four, but those are the only four needed to run jdemview.  Also in DuluthHeightsSDTS are the topographic and orthographic maps for Duluth Heights.  To execute the program, change to the dist folder and run 
+#java -jar jdemview.jar
+
+Additional options are:
+#java -jar jdemview.jar filename	// should be the full path to the file.
